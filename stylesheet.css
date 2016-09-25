@@ -1,0 +1,230 @@
+.leftdiv {
+	height: 100px;
+	width: 55%;
+	border-radius: 6pt;
+	background-color: white;
+	float: left;
+	margin-top: 150px;
+	margin-left: 50px;
+	-webkit-box-shadow: 0px 0px 10px 0px #787878;
+    -moz-box-shadow: 0px 0px 10px 0px #787878;
+	box-shadow: 0px 0px 10px 0px #787878;
+}
+
+.rightdiv{
+	min-height: 200px;
+	width: 25%;
+	background-color: white;
+	border-radius: 6pt;
+	float:right;
+	margin-right: 100px;
+	margin-top: 150px;
+	padding-top: 20px;
+	padding-left: 10px;
+	font-family: impact;
+	font-size: 20px;
+	-webkit-box-shadow: 0px 0px 10px 0px #787878;
+    -moz-box-shadow: 0px 0px 10px 0px #787878;
+	box-shadow: 0px 0px 10px 0px #787878;
+}
+
+.basket{
+	min-height: 40px;
+	width: 100%;
+}
+
+hr{
+	clear: both;
+}
+
+.basketProd{
+	height: 25px;
+	float: left;
+	margin: 3px 3px 3px 3px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 5pt;
+	font-family: fantasy;
+	font-size: 12px;
+	background-color: #f0f0f0;
+	word-wrap: break-word;
+}
+
+.basketAmount{
+	float: right;
+	height: 19px;
+	width: 13px;
+	padding-left: 7px;
+	padding-top: 1px;
+	margin-left: 2px;
+	border-radius: 100%;
+	float: right;
+	margin-right: 7px;
+	font-family: impact;
+	font-size: 12px;
+	background-color: #f78c00;
+	color: white;
+}
+
+.productdiv{
+	height: 75px;
+	width: 100%;
+	font-size: 20px;
+	padding-top: 25px; 
+	padding-left: 20px;
+	border-radius: 6pt;
+	background-color: white;
+	border-color: black;
+	float: left;	
+	word-wrap: break-word;
+	-webkit-box-shadow: 0px 0px 4px 0px #787878;
+	box-sizing:border-box;
+	border: 1px solid #c2c0c2;
+}
+
+.product{
+	font-size: 20px;
+	float: left;
+	word-wrap: break-word;
+}
+
+body{
+	background-color: #f0f0f0;
+}
+
+.changeBorderColor{
+	border-color: blue;
+}
+
+.minusButton, .plusButton, #NUM, .boughtButton, .declineButton{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.messages{
+	height: 70px;
+	width: 80%;
+	border-radius: 5pt;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.forms{
+	width: 80%;
+}
+
+.forms, .addButton{
+	display: inline-block;
+}
+
+.addButton{
+	width: 12%;
+	padding-top: 22px ;
+	padding-left: 22px;
+	height: 44px;
+	border-radius: 4pt;
+	background-color: #524cff;
+	margin-top: 15px;
+	margin-right: 15px;
+	font-size: 18px;
+	font-family: Impact;
+	color: white;
+	-webkit-box-shadow: 0px 4px 0px 0px #1717ff;
+    -moz-box-shadow: 0px 4px 0px 0px #1717ff;
+	box-shadow: 0px 4px 0px 0px #1717ff;
+}
+
+.addButton:hover{
+	background-color:#2019fa;
+	-webkit-box-shadow: 0px 4px 0px 0px #0300d1;
+    -moz-box-shadow: 0px 4px 0px 0px #0300d1;
+	box-shadow: 0px 4px 0px 0px #0300d1;
+}
+
+.addButton:active{
+	background-color: #0300d1;
+}
+
+.minusButton, .plusButton{
+	clear:none;
+	height: 23px;
+	width: 15px;
+	padding-top: 2px;
+	padding-left: 10px;
+	border-radius: 100%;
+	background-color: #00db00;
+	font-size: 15px;
+	font-family: impact;
+	color: white;
+	-webkit-box-shadow: 0px 3px 0px 0px #006300;
+    -moz-box-shadow: 0px 3px 0px 0px #006300;
+	box-shadow: 0px 3px 0px 0px #006300;
+}
+
+.minusButton:hover{
+	background-color: #00b300;
+}
+
+.minusButton:active{
+	background-color: #006300;
+}
+
+.plusButton:hover{
+	background-color: #e60000;
+}
+
+.plusButton:active{
+	background-color: #800000;
+}
+
+.plusButton{
+	margin-left: 5px;
+	width: 17px;
+	padding-left: 8px;
+	background-color: #ff0000;
+	-webkit-box-shadow: 0px 3px 0px 0px #800000;
+    -moz-box-shadow: 0px 3px 0px 0px #800000;
+	box-shadow: 0px 3px 0px 0px #800000;
+}
+
+#NUM{
+	background-color: #f0f0f0;
+	font-family: impact;
+	font-size: 12px;
+	height: 18px;
+	width: 13px;
+	padding-left: 5px;
+	border-radius: 5pt;
+	margin-left: 5px;
+}
+
+.boughtButton{
+	height: 21px;
+	width: 65px;
+	padding-top: 4px;
+	padding-left: 15px;
+	margin-left: 200px;
+	border-radius: 2pt;
+	font-family: fantasy;
+	font-size: 14px;
+	background-color: #f0f0f0;
+	-webkit-box-shadow: 0px 3px 0px 0px #c2c0c2;
+    -moz-box-shadow: 0px 3px 0px 0px #c2c0c2;
+	box-shadow: 0px 3px 0px 0px #c2c0c2;
+}
+
+.declineButton{
+	font-family: fantasy;
+	font-size: 16px;
+	padding-left: 9px;
+	padding-top: 2px;
+	background-color: #e60000;
+	margin-left: 10px;
+	height: 23px;
+	width: 16px;
+	border-radius: 2pt;
+	-webkit-box-shadow: 0px 3px 0px 0px #a80000;
+    -moz-box-shadow: 0px 3px 0px 0px #a80000;
+	box-shadow: 0px 3px 0px 0px #a80000;
+}
