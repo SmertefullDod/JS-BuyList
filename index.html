@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head lang="uk">
-    <meta charset="UTF-8">
-    <title>My Page</title>
+	<head>
+		<title>test</title>
+		<meta charset="utf-8">
+		<link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+		<script type="text/javascript" src='jquery.js'></script>
+		<script type="text/javascript" src='script.js'></script>
+	</head>
+	<body>
 
+			<div class="leftdiv">
+				<form class="forms">
+        			<input type="text" class="messages" name="item">
+       			</form>
+                            <div class="addButton">Додати</div>
+       			<div class='productdiv'>
+       				<div class='declineButton'>x</div>
+       				<div class='boughtButton'>Куплено</div>
+       				<div class='plusButton'>+</div>
+       				<div id='NUM'>1</div>
+       				<div class='minusButton'>-</div>
+       				<div class='product'>product1</div>
+       			</div>
 
-    <link rel="stylesheet" type="text/css" href="main.css" />
-</head>
-<body>
-<h1>Hello World</h1>
-</body>
+       			<div class='productdiv'>
+       				<div class='declineButton'>x</div>
+       				<div class='boughtButton'>Куплено</div>
+       				<div class='plusButton'>+</div>
+       				<div id='NUM'>1</div>
+       				<div class='minusButton'>-</div>
+       				<div class='product'>product2</div>
+       			</div>
+
+       			<div class='productdiv'>
+       				<div class='declineButton'>x</div>
+       				<div class='boughtButton'>Куплено</div>
+       				<div class='plusButton'>+</div>
+       				<div id='NUM'>1</div>
+       				<div class='minusButton'>-</div>
+       				<div class='product'>product3</div>
+       			</div>
+			</div>
+
+			<div class="rightdiv">
+				Залишилося
+				<hr>
+				<div class="basket">
+					<div class="basketProd">product1<div class="basketAmount">1</div></div>
+					<div class="basketProd">product2<div class="basketAmount">1</div></div>
+					<div class="basketProd">product3<div class="basketAmount">1</div></div>
+				</div>
+                            <hr>
+                            Куплено
+                            <hr>
+			</div>
+
+	</body>
 </html>
